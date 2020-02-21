@@ -1,0 +1,2609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmi:id="_JJBYEDvPEeq_l_FaqSEw-A">
+  <eAnnotations xmi:id="_WyhToDvPEeq_l_FaqSEw-A" source="http://ns.yatta.de/umllab">
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_WyhToTvPEeq_l_FaqSEw-A" source="visual-filters/hideNonPublicElements" references="_RbchQjvPEeq_l_FaqSEw-A _RblEIDvPEeq_l_FaqSEw-A _Rb50RjvPEeq_l_FaqSEw-A _Rb7pdjvPEeq_l_FaqSEw-A _RcS10TvPEeq_l_FaqSEw-A _RdOp8jvPEeq_l_FaqSEw-A _Raxy6zvPEeq_l_FaqSEw-A _Raxy8DvPEeq_l_FaqSEw-A _Raxy9TvPEeq_l_FaqSEw-A _Raxy-TvPEeq_l_FaqSEw-A _RbDfsDvPEeq_l_FaqSEw-A _RbXowzvPEeq_l_FaqSEw-A _RbXoxzvPEeq_l_FaqSEw-A _RbXoyzvPEeq_l_FaqSEw-A _RbngYzvPEeq_l_FaqSEw-A _RbngbTvPEeq_l_FaqSEw-A _RbngcTvPEeq_l_FaqSEw-A _RbngdTvPEeq_l_FaqSEw-A _RbngeTvPEeq_l_FaqSEw-A _RbngfTvPEeq_l_FaqSEw-A _RbnggTvPEeq_l_FaqSEw-A _RbnghTvPEeq_l_FaqSEw-A _RbngiTvPEeq_l_FaqSEw-A _RbngjTvPEeq_l_FaqSEw-A _RbngkTvPEeq_l_FaqSEw-A _RbnglTvPEeq_l_FaqSEw-A _RbngmTvPEeq_l_FaqSEw-A _RbngnTvPEeq_l_FaqSEw-A _RbngoTvPEeq_l_FaqSEw-A _RbngpTvPEeq_l_FaqSEw-A _RbngqTvPEeq_l_FaqSEw-A _RbngrTvPEeq_l_FaqSEw-A _RbngsTvPEeq_l_FaqSEw-A _Rb8QgzvPEeq_l_FaqSEw-A _Rb8QiDvPEeq_l_FaqSEw-A _Rb8QjjvPEeq_l_FaqSEw-A _Rb8QvzvPEeq_l_FaqSEw-A _RcV5NjvPEeq_l_FaqSEw-A _RcV5OzvPEeq_l_FaqSEw-A _RcV5gDvPEeq_l_FaqSEw-A _Rc1BYDvPEeq_l_FaqSEw-A _Rc1BbjvPEeq_l_FaqSEw-A _Rc1BcjvPEeq_l_FaqSEw-A _Rc1BdjvPEeq_l_FaqSEw-A _Rc1BejvPEeq_l_FaqSEw-A _Rc1BfjvPEeq_l_FaqSEw-A _Rc1BgjvPEeq_l_FaqSEw-A _Rc1BhjvPEeq_l_FaqSEw-A _Rc1BijvPEeq_l_FaqSEw-A _RdGuIzvPEeq_l_FaqSEw-A _RdGuJzvPEeq_l_FaqSEw-A _RdUJiTvPEeq_l_FaqSEw-A _RdUJjTvPEeq_l_FaqSEw-A _RdUJkjvPEeq_l_FaqSEw-A _RdUJlzvPEeq_l_FaqSEw-A _RdUJnDvPEeq_l_FaqSEw-A _RdUJoTvPEeq_l_FaqSEw-A _Rdhk4zvPEeq_l_FaqSEw-A _Rdhk6DvPEeq_l_FaqSEw-A _RdiMPzvPEeq_l_FaqSEw-A _RdtLEzvPEeq_l_FaqSEw-A _RdtLFzvPEeq_l_FaqSEw-A _RdtLGzvPEeq_l_FaqSEw-A _RdtLHzvPEeq_l_FaqSEw-A _RdtLIzvPEeq_l_FaqSEw-A _RdtLJzvPEeq_l_FaqSEw-A _RdtLKzvPEeq_l_FaqSEw-A _RdtLLzvPEeq_l_FaqSEw-A _RdtLMzvPEeq_l_FaqSEw-A _RdtLNzvPEeq_l_FaqSEw-A _RdtLOzvPEeq_l_FaqSEw-A _RdtLPzvPEeq_l_FaqSEw-A _RdtLVTvPEeq_l_FaqSEw-A _RdtLYDvPEeq_l_FaqSEw-A _NbjyUkkXEeqL1_AphxPj1A _Nbp49kkXEeqL1_AphxPj1A _Nb37ZkkXEeqL1_AphxPj1A _Nb4idkkXEeqL1_AphxPj1A _NcGk4EkXEeqL1_AphxPj1A _NcniQkkXEeqL1_AphxPj1A _NbQQUkkXEeqL1_AphxPj1A _NbQQV0kXEeqL1_AphxPj1A _NbQQXEkXEeqL1_AphxPj1A _NbQQYEkXEeqL1_AphxPj1A _Nbb2gEkXEeqL1_AphxPj1A _Nbfg40kXEeqL1_AphxPj1A _Nbfg50kXEeqL1_AphxPj1A _Nbfg60kXEeqL1_AphxPj1A _NbrHE0kXEeqL1_AphxPj1A _NbrHHUkXEeqL1_AphxPj1A _NbrHIUkXEeqL1_AphxPj1A _NbrHJUkXEeqL1_AphxPj1A _NbrHKUkXEeqL1_AphxPj1A _NbrHLUkXEeqL1_AphxPj1A _NbrHMUkXEeqL1_AphxPj1A _NbrHNUkXEeqL1_AphxPj1A _NbrHOUkXEeqL1_AphxPj1A _NbrHPUkXEeqL1_AphxPj1A _NbrHQUkXEeqL1_AphxPj1A _NbrHRUkXEeqL1_AphxPj1A _NbrHSUkXEeqL1_AphxPj1A _NbrHTUkXEeqL1_AphxPj1A _NbrHUUkXEeqL1_AphxPj1A _NbrHVUkXEeqL1_AphxPj1A _NbrHWUkXEeqL1_AphxPj1A _NbrHXUkXEeqL1_AphxPj1A _NbrHYUkXEeqL1_AphxPj1A _Nb4ifEkXEeqL1_AphxPj1A _Nb4igUkXEeqL1_AphxPj1A _Nb4ih0kXEeqL1_AphxPj1A _Nb4iuEkXEeqL1_AphxPj1A _NcIaHUkXEeqL1_AphxPj1A _NcIaIkkXEeqL1_AphxPj1A _NcIaYUkXEeqL1_AphxPj1A _NcaG50kXEeqL1_AphxPj1A _NcaG9UkXEeqL1_AphxPj1A _NcaG-UkXEeqL1_AphxPj1A _NcaG_UkXEeqL1_AphxPj1A _NcaHAUkXEeqL1_AphxPj1A _NcaHBUkXEeqL1_AphxPj1A _NcaHCUkXEeqL1_AphxPj1A _NcaHDUkXEeqL1_AphxPj1A _NcaHEUkXEeqL1_AphxPj1A _NcjQ00kXEeqL1_AphxPj1A _NcjQ10kXEeqL1_AphxPj1A _Ncp-iUkXEeqL1_AphxPj1A _Ncp-jUkXEeqL1_AphxPj1A _Ncp-kkkXEeqL1_AphxPj1A _Ncp-l0kXEeqL1_AphxPj1A _Ncp-nEkXEeqL1_AphxPj1A _Ncp-oUkXEeqL1_AphxPj1A _NcyhY0kXEeqL1_AphxPj1A _NcyhaEkXEeqL1_AphxPj1A _NcyhuUkXEeqL1_AphxPj1A _Nc7EQ0kXEeqL1_AphxPj1A _Nc7ER0kXEeqL1_AphxPj1A _Nc7ES0kXEeqL1_AphxPj1A _Nc7ET0kXEeqL1_AphxPj1A _Nc7EU0kXEeqL1_AphxPj1A _Nc7EV0kXEeqL1_AphxPj1A _Nc7EW0kXEeqL1_AphxPj1A _Nc7EX0kXEeqL1_AphxPj1A _Nc7EY0kXEeqL1_AphxPj1A _Nc7EZ0kXEeqL1_AphxPj1A _Nc7Ea0kXEeqL1_AphxPj1A _Nc7Eb0kXEeqL1_AphxPj1A _Nc7Ec0kXEeqL1_AphxPj1A _Nc7Eh0kXEeqL1_AphxPj1A">
+      <details xmi:id="_WyhTojvPEeq_l_FaqSEw-A" key="isActive" value="true"/>
+    </contents>
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_KNO7gEkfEeqL1_AphxPj1A" source="dangling-refs">
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:RoleVisual" xmi:id="_RbchQjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:RoleVisual" xmi:id="_RblEIDvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:RoleVisual" xmi:id="_Rb50RjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:RoleVisual" xmi:id="_Rb7pdjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:RoleVisual" xmi:id="_RcS10TvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:RoleVisual" xmi:id="_RdOp8jvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Raxy6zvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Raxy8DvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Raxy9TvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Raxy-TvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RbDfsDvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbXowzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbXoxzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbXoyzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngYzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngbTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngcTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngdTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngeTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngfTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbnggTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbnghTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngiTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngjTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngkTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbnglTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngmTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngnTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngoTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngpTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngqTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngrTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RbngsTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rb8QgzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rb8QiDvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rb8QjjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:OperationVisual" xmi:id="_Rb8QvzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RcV5NjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RcV5OzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:OperationVisual" xmi:id="_RcV5gDvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rc1BYDvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rc1BbjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rc1BcjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rc1BdjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rc1BejvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rc1BfjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rc1BgjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rc1BhjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rc1BijvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdGuIzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdGuJzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdUJiTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdUJjTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdUJkjvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdUJlzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdUJnDvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdUJoTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rdhk4zvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_Rdhk6DvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:OperationVisual" xmi:id="_RdiMPzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLEzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLFzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLGzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLHzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLIzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLJzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLKzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLLzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLMzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLNzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLOzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:AttributeVisual" xmi:id="_RdtLPzvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:OperationVisual" xmi:id="_RdtLVTvPEeq_l_FaqSEw-A"/>
+      <contents xsi:type="com.yattasolutions.uml.diagrams.classifier:OperationVisual" xmi:id="_RdtLYDvPEeq_l_FaqSEw-A"/>
+    </contents>
+  </eAnnotations>
+  <modelElement href="Jabberpoint.uml#_F4gpkDvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RY3HUDvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RaPAUTvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RarFMDvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RbBDcTvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RbVzkTvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RbbTITvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RbhZwTvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Rb1i0TvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RcPygTvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RchfUTvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Rcr3YTvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RdCcsTvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RdM0wDvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RddTcjvPEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BbEYcDvQEeq_l_FaqSEw-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MWirAUkXEeqL1_AphxPj1A" targetItem="_MWjSEEkXEeqL1_AphxPj1A" sourceItem="_MWirAEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NbHGYUkXEeqL1_AphxPj1A" targetItem="_NbI7kEkXEeqL1_AphxPj1A" sourceItem="_NbHGYEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NbMl8UkXEeqL1_AphxPj1A" targetItem="_NbPpQEkXEeqL1_AphxPj1A" sourceItem="_NbMl8EkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NbMl8kkXEeqL1_AphxPj1A" source="_NbPpQEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsO-cUkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_NbObIkkXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsQMkEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NbN0EEkXEeqL1_AphxPj1A" text=""/>
+    <sourceRole xmi:id="_NbObIEkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsO-ckkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbPCMUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbPCMEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NbObIUkXEeqL1_AphxPj1A" aggregationKind="NONE" name="bufferedImage" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrZQ8EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbPCM0kXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NbPCMkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_NbaBUEkXEeqL1_AphxPj1A" sourceAnchor="197.0,0.0" targetAnchor="163.0,156.0" superClass="_NbI7kEkXEeqL1_AphxPj1A" subClass="_Nbb2gEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qqCmE0kUEeqL1_AphxPj1A"/>
+    <bendpoints xmi:id="_NnumEEkXEeqL1_AphxPj1A" sourceY="-55" targetX="-1194" targetY="27"/>
+    <bendpoints xmi:id="_NnumEUkXEeqL1_AphxPj1A" sourceX="1194" sourceY="-55" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NbaoYUkXEeqL1_AphxPj1A" targetItem="_Nbb2gEkXEeqL1_AphxPj1A" sourceItem="_NbaoYEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NbeSwUkXEeqL1_AphxPj1A" targetItem="_Nbfg4EkXEeqL1_AphxPj1A" sourceItem="_NbeSwEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NbikMUkXEeqL1_AphxPj1A" targetItem="_NbkZYkkXEeqL1_AphxPj1A" sourceItem="_NbikMEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NbjLQEkXEeqL1_AphxPj1A" sourceAnchor="124.0,73.0" targetAnchor="233.0,0.0" target="_Nb4ieUkXEeqL1_AphxPj1A" source="_NbkZYkkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsBjEEkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_NbjyU0kXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsCKIEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NbjyUEkXEeqL1_AphxPj1A" text="">
+      <visualProperties xmi:id="_NnxCUEkXEeqL1_AphxPj1A" position="2.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NbjyUUkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsBjEUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_NnwbQkkXEeqL1_AphxPj1A" position="-17.0,28.0"/>
+      <visibility xmi:id="_NbjyVUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbjyVEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NbjyUkkXEeqL1_AphxPj1A" aggregationKind="NONE" name="presentation" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qq3sgEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_NnxCUUkXEeqL1_AphxPj1A" position="401.4731309901141,148.94151038276055" visible="false"/>
+      <visibility xmi:id="_NbkZYEkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NbjyVkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NbncsUkXEeqL1_AphxPj1A" targetItem="_NbrHEEkXEeqL1_AphxPj1A" sourceItem="_NbncsEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NbncskkXEeqL1_AphxPj1A" source="_NbrHEEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsGbkUkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_Nbp480kXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsHpsEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Nbp48EkXEeqL1_AphxPj1A" text=""/>
+    <sourceRole xmi:id="_Nbp48UkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsGbkkkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbqgAUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbqgAEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Nbp48kkXEeqL1_AphxPj1A" aggregationKind="NONE" name="parent" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrMcoEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbqgA0kXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NbqgAkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Nbncs0kXEeqL1_AphxPj1A" sourceAnchor="222.0,0.0" targetAnchor="233.0,326.0" target="_Nb4ieUkXEeqL1_AphxPj1A" source="_NbrHEEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsHpsUkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_Nbp490kXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsJe4EkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Nbp49EkXEeqL1_AphxPj1A" text="">
+      <visualProperties xmi:id="_NnyQcEkXEeqL1_AphxPj1A" position="-39.0,-16.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Nbp49UkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsHpskkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_NnxpYEkXEeqL1_AphxPj1A" position="-17.0,-78.0"/>
+      <visibility xmi:id="_NbqgBkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbqgBUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Nbp49kkXEeqL1_AphxPj1A" aggregationKind="NONE" name="presentation" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrNDsUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_NnyQcUkXEeqL1_AphxPj1A" position="-252.56043276896946,514.3392021831019" visible="false"/>
+      <visibility xmi:id="_NbqgCEkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NbqgB0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Nb0RAUkXEeqL1_AphxPj1A" targetItem="_Nb4ieUkXEeqL1_AphxPj1A" sourceItem="_Nb0RAEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Nb0RAkkXEeqL1_AphxPj1A" source="_Nb4ieUkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsCxMEkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_Nb2tQUkXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsDYQEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Nb2GMEkXEeqL1_AphxPj1A" text=""/>
+    <sourceRole xmi:id="_Nb2GMUkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsCxMUkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb3UUEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb2tQkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Nb2tQEkXEeqL1_AphxPj1A" aggregationKind="NONE" name="showList" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qq5hsUkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb3UUkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Nb3UUUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Nb37YEkXEeqL1_AphxPj1A" sourceAnchor="0.0,22.0" targetAnchor="473.0,162.0" target="_Nb4ieUkXEeqL1_AphxPj1A" source="_NcaG4EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsLUEUkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_Nb37YUkXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsL7IEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Nb37YkkXEeqL1_AphxPj1A" text="">
+      <visualProperties xmi:id="_Nn160EkXEeqL1_AphxPj1A" position="-19.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Nb37Y0kXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsLUEkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_Nn1TwEkXEeqL1_AphxPj1A" position="-28.0,-47.0"/>
+      <visibility xmi:id="_Nb37ZEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb37ZUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Nb37ZkkXEeqL1_AphxPj1A" aggregationKind="NONE" name="presentation" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrVmkEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_Nn160UkXEeqL1_AphxPj1A" position="-46.58023859467795,240.59430419741642" visible="false"/>
+      <stereotypes xmi:id="_Nb37Z0kXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrVmkkkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Nb37aEkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Nb37aUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Nb4icEkXEeqL1_AphxPj1A" sourceAnchor="473.0,206.0" targetAnchor="0.0,66.0" target="_NcaG4EkXEeqL1_AphxPj1A" source="_Nb4ieUkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsDYQUkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_Nb4icUkXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsEmYEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Nb4ickkXEeqL1_AphxPj1A" text="">
+      <visualProperties xmi:id="_NnzekEkXEeqL1_AphxPj1A" position="-19.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Nb4ic0kXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsDYQkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_Nny3gEkXEeqL1_AphxPj1A" position="12.0,2.0"/>
+      <visibility xmi:id="_Nb4idEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4idUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Nb4idkkXEeqL1_AphxPj1A" aggregationKind="NONE" name="slideViewComponent" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qq7W4kkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_NnzekUkXEeqL1_AphxPj1A" position="-71.26314223979446,-304.44364287920325" visible="false"/>
+      <visibility xmi:id="_Nb4id0kXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Nb4ieEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NcEIoUkXEeqL1_AphxPj1A" targetItem="_NcIaEEkXEeqL1_AphxPj1A" sourceItem="_NcEIoEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NcEIokkXEeqL1_AphxPj1A" sourceAnchor="252.0,0.0" targetAnchor="189.0,251.0" target="_NcIaEEkXEeqL1_AphxPj1A" source="_NcaG4EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsJe4UkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_NcGk4UkXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsKF8EkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NcF90EkXEeqL1_AphxPj1A" text="">
+      <visualProperties xmi:id="_Nn0ssEkXEeqL1_AphxPj1A" position="2.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NcF90UkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsJe4kkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_Nn0FoEkXEeqL1_AphxPj1A" position="-17.0,-61.0"/>
+      <visibility xmi:id="_NcHL8UkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcHL8EkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NcGk4EkXEeqL1_AphxPj1A" aggregationKind="NONE" name="slide" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrTxYEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_Nn0ssUkXEeqL1_AphxPj1A" position="-362.01484189811566,-145.6891038491849" visible="false"/>
+      <stereotypes xmi:id="_NcHL9EkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrUYcEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcHL80kXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcHL8kkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NcEvsEkXEeqL1_AphxPj1A" source="_NcIaEEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsEmYUkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_NcGk5UkXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsGbkEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NcGk4kkXEeqL1_AphxPj1A" text=""/>
+    <sourceRole xmi:id="_NcGk40kXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsEmYkkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcHzAEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcHL9UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NcGk5EkXEeqL1_AphxPj1A" aggregationKind="NONE" name="items" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrJZUEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcHzAkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NcHzAUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NcPu0UkXEeqL1_AphxPj1A" targetItem="_NcRkAEkXEeqL1_AphxPj1A" sourceItem="_NcPu0EkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_NcPu0kkXEeqL1_AphxPj1A" sourceAnchor="291.0,0.0" targetAnchor="281.0,137.0" superClass="_NcRkAEkXEeqL1_AphxPj1A" subClass="_NbPpQEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qqX9QUkUEeqL1_AphxPj1A"/>
+    <bendpoints xmi:id="_af4kQEkXEeqL1_AphxPj1A" sourceY="-39" targetX="-246" targetY="34"/>
+    <bendpoints xmi:id="_af5LUEkXEeqL1_AphxPj1A" sourceX="246" sourceY="-39" targetY="34"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NcV1cEkXEeqL1_AphxPj1A" targetItem="_NcaG4EkXEeqL1_AphxPj1A" sourceItem="_NcVOYEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NcV1cUkXEeqL1_AphxPj1A" source="_NcaG4EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsKF8UkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_NcXqo0kXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsLUEEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NcXqoEkXEeqL1_AphxPj1A" text=""/>
+    <sourceRole xmi:id="_NcXqoUkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsKF8kkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcY4wUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcY4wEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NcXqokkXEeqL1_AphxPj1A" aggregationKind="NONE" name="labelFont" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrU_gEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcY4w0kXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcY4wkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NcV1ckkXEeqL1_AphxPj1A" source="_NcaG4EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsL7IUkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_NcYRsUkXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsNJQEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NcXqpEkXEeqL1_AphxPj1A" text=""/>
+    <sourceRole xmi:id="_NcXqpUkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsL7IkkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcY4xkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcY4xUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NcYRsEkXEeqL1_AphxPj1A" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrVmk0kUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcY4yEkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcY4x0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NcV1c0kXEeqL1_AphxPj1A" source="_NcaG4EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsNJQUkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_NcYRtUkXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsNwUEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NcYRskkXEeqL1_AphxPj1A" text=""/>
+    <sourceRole xmi:id="_NcYRs0kXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsNJQkkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcZf0kkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcZf0UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NcYRtEkXEeqL1_AphxPj1A" aggregationKind="NONE" name="BGCOLOR" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrW0sUkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcZf1EkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcZf00kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NcV1dEkXEeqL1_AphxPj1A" source="_NcaG4EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsOXYEkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_NcYRuUkXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsO-cEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NcYRtkkXEeqL1_AphxPj1A" text=""/>
+    <sourceRole xmi:id="_NcYRt0kXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsOXYUkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcZf1kkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcZf1UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NcYRuEkXEeqL1_AphxPj1A" aggregationKind="NONE" name="COLOR" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrW0s0kUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcZf2EkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcZf10kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NciCsUkXEeqL1_AphxPj1A" targetItem="_NcjQ0EkXEeqL1_AphxPj1A" sourceItem="_NciCsEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_NciCskkXEeqL1_AphxPj1A" subClass="_NcjQ0EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qnrOkEkUEeqL1_AphxPj1A"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NcmUIEkXEeqL1_AphxPj1A" sourceAnchor="199.0,0.0" targetAnchor="403.0,77.0" target="_Ncp-gEkXEeqL1_AphxPj1A" source="_Ncp-gEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsQMkUkUEeqL1_AphxPj1A"/>
+    <bendpoints xmi:id="_af5LUUkXEeqL1_AphxPj1A" sourceY="-79" targetX="-204" targetY="-157"/>
+    <bendpoints xmi:id="_af5LUkkXEeqL1_AphxPj1A" sourceX="248" sourceY="-76" targetX="51" targetY="-154"/>
+    <bendpoints xmi:id="_af5LU0kXEeqL1_AphxPj1A" sourceX="249" sourceY="79" targetX="52" targetY="1"/>
+    <stereotypes xmi:id="_NcniQ0kXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsRasEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NcniQEkXEeqL1_AphxPj1A" text="">
+      <visualProperties xmi:id="_Nn3I8EkXEeqL1_AphxPj1A" position="-203.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NcniQUkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsQMkkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_Nn2h4EkXEeqL1_AphxPj1A" position="-21.0,-50.0"/>
+      <visibility xmi:id="_NcowZEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcowY0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NcniQkkXEeqL1_AphxPj1A" aggregationKind="NONE" name="styles" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrbtMEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_Nn3I8UkXEeqL1_AphxPj1A" position="-48.99999999999997,4.0" visible="false"/>
+      <visibility xmi:id="_NcowZkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcowZUkXEeqL1_AphxPj1A" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ncm7MUkXEeqL1_AphxPj1A" targetItem="_Ncp-gEkXEeqL1_AphxPj1A" sourceItem="_Ncm7MEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ncm7MkkXEeqL1_AphxPj1A" source="_Ncp-gEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsRasUkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_NcoJU0kXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsSBwEkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NcoJUEkXEeqL1_AphxPj1A" text=""/>
+    <sourceRole xmi:id="_NcoJUUkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsRaskkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcpXcUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcpXcEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NcoJUkkXEeqL1_AphxPj1A" aggregationKind="NONE" name="color" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrdiYEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcpXc0kXEeqL1_AphxPj1A" label="~"/>
+      <cardinality xmi:id="_NcpXckkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ncm7M0kXEeqL1_AphxPj1A" source="_Ncp-gEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qsSBwUkUEeqL1_AphxPj1A"/>
+    <stereotypes xmi:id="_NcowYkkXEeqL1_AphxPj1A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_qsSo0EkUEeqL1_AphxPj1A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NcoJVEkXEeqL1_AphxPj1A" text=""/>
+    <sourceRole xmi:id="_NcowYEkXEeqL1_AphxPj1A" aggregationKind="NONE" name="">
+      <modelElement href="Jabberpoint.uml#_qsSBwkkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcpXdkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcpXdUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NcowYUkXEeqL1_AphxPj1A" aggregationKind="NONE" name="font" navigable="true">
+      <modelElement href="Jabberpoint.uml#_qrdiYkkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcpXeEkXEeqL1_AphxPj1A" label="~"/>
+      <cardinality xmi:id="_NcpXd0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_NcveEEkXEeqL1_AphxPj1A" sourceAnchor="289.0,0.0" targetAnchor="281.0,137.0" superClass="_NcRkAEkXEeqL1_AphxPj1A" subClass="_NcyhYEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qqhuQEkUEeqL1_AphxPj1A"/>
+    <bendpoints xmi:id="_af5yYEkXEeqL1_AphxPj1A" sourceY="-30" targetX="362" targetY="34"/>
+    <bendpoints xmi:id="_af5yYUkXEeqL1_AphxPj1A" sourceX="-362" sourceY="-30" targetY="34"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_NcwFIUkXEeqL1_AphxPj1A" targetItem="_NcyhYEkXEeqL1_AphxPj1A" sourceItem="_NcwFIEkXEeqL1_AphxPj1A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Nc4A8EkXEeqL1_AphxPj1A" sourceAnchor="156.0,0.0" targetAnchor="162.0,157.0" superClass="_NbI7kEkXEeqL1_AphxPj1A" subClass="_Nc7EQEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qqlYoEkUEeqL1_AphxPj1A"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Nc4A8kkXEeqL1_AphxPj1A" targetItem="_Nc7EQEkXEeqL1_AphxPj1A" sourceItem="_Nc4A8UkXEeqL1_AphxPj1A"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MWirAEkXEeqL1_AphxPj1A" sourceConnectionVisual="_MWirAUkXEeqL1_AphxPj1A" text="De About-box voor JabberPoint.&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_MWjSEEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr6OUEkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NbHGYEkXEeqL1_AphxPj1A" sourceConnectionVisual="_NbHGYUkXEeqL1_AphxPj1A" text="&lt;p>Een Accessor maakt het mogelijk om gegevens voor een presentatie&#xD;&#xA;te lezen of te schrijven.&lt;/p>&#xD;&#xA;&lt;p>Niet-abstracte subklassen moeten de load en de save methode implementeren.&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_NbI7kEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr6OUUkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NbMl8EkXEeqL1_AphxPj1A" sourceConnectionVisual="_NbMl8UkXEeqL1_AphxPj1A" text="&lt;p>De klasse voor een Bitmap item&lt;/p>&#xD;&#xA;&lt;p>Bitmap items hebben de verantwoordelijkheid om zichzelf te tekenen.&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_NbPpQEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr8DgUkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NbaoYEkXEeqL1_AphxPj1A" sourceConnectionVisual="_NbaoYUkXEeqL1_AphxPj1A" text="Een ingebouwde demo-presentatie&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_Nbb2gEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr61YEkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NbeSwEkXEeqL1_AphxPj1A" sourceConnectionVisual="_NbeSwUkXEeqL1_AphxPj1A" text="JabberPoint Main Programma&#xD;&#xA;&lt;p>This program is distributed under the terms of the accompanying&#xD;&#xA;COPYRIGHT.txt file (which is NOT the GNU General Public License).&#xD;&#xA;Please read it. Your use of the software constitutes acceptance&#xD;&#xA;of the terms in the COPYRIGHT.txt file.&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_Nbfg4EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr61YUkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NbikMEkXEeqL1_AphxPj1A" sourceConnectionVisual="_NbikMUkXEeqL1_AphxPj1A" text="&lt;p>This is the KeyController (KeyListener)&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_NbkZYkkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr61YkkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NbncsEkXEeqL1_AphxPj1A" sourceConnectionVisual="_NbncsUkXEeqL1_AphxPj1A" text="&lt;p>De controller voor het menu&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_NbrHEEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr7cckkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Nb0RAEkXEeqL1_AphxPj1A" sourceConnectionVisual="_Nb0RAUkXEeqL1_AphxPj1A" text="&lt;p>Presentation houdt de slides in de presentatie bij.&lt;/p>&#xD;&#xA;&lt;p>Er is slechts één instantie van deze klasse aanwezig.&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_Nb4ieUkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr7ccEkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NcEIoEkXEeqL1_AphxPj1A" sourceConnectionVisual="_NcEIoUkXEeqL1_AphxPj1A" text="&lt;p>Een slide. Deze klasse heeft tekenfunctionaliteit.&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_NcIaEEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr7ccUkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NcPu0EkXEeqL1_AphxPj1A" sourceConnectionVisual="_NcPu0UkXEeqL1_AphxPj1A" text="&lt;p>De abstracte klasse voor een item op een Slide&lt;p>&#xD;&#xA;&lt;p>Alle SlideItems hebben tekenfunctionaliteit.&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_NcRkAEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr61Y0kUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NcVOYEkXEeqL1_AphxPj1A" sourceConnectionVisual="_NcV1cEkXEeqL1_AphxPj1A" text="&lt;p>SlideViewerComponent is een grafische component die Slides kan laten zien.&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_NcaG4EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr8DgEkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NciCsEkXEeqL1_AphxPj1A" sourceConnectionVisual="_NciCsUkXEeqL1_AphxPj1A" text="&lt;p>Het applicatiewindow voor een slideviewcomponent&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_NcjQ0EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr6OUkkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ncm7MEkXEeqL1_AphxPj1A" sourceConnectionVisual="_Ncm7MUkXEeqL1_AphxPj1A" text="&lt;p>Style staat voor Indent, Color, Font and Leading.&lt;/p>&#xD;&#xA;&lt;p>De koppeling tussen style-nummer en item-level is nu direct:&#xD;&#xA;in Slide wordt de style opgehaald voor een item&#xD;&#xA;met als style-nummer het item-level.&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_Ncp-gEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr8DgkkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_NcwFIEkXEeqL1_AphxPj1A" sourceConnectionVisual="_NcwFIUkXEeqL1_AphxPj1A" text="&lt;p>Een tekst item.&lt;/p>&#xD;&#xA;&lt;p>Een TextItem heeft tekenfunctionaliteit.&lt;/p>&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_NcyhYEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr8Dg0kUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Nc4A8UkXEeqL1_AphxPj1A" sourceConnectionVisual="_Nc4A8kkXEeqL1_AphxPj1A" text="XMLAccessor, reads and writes XML files&#xD;&#xA;&#xD;&#xA;@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman&#xD;&#xA;@version 1.1 2002/12/17 Gert Florijn&#xD;&#xA;@version 1.2 2003/11/19 Sylvia Stuurman&#xD;&#xA;@version 1.3 2004/08/17 Sylvia Stuurman&#xD;&#xA;@version 1.4 2007/07/16 Sylvia Stuurman&#xD;&#xA;@version 1.5 2010/03/03 Sylvia Stuurman&#xD;&#xA;@version 1.6 2014/05/16 Sylvia Stuurman" item="_Nc7EQEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qr8qkEkUEeqL1_AphxPj1A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Nbb2gEkXEeqL1_AphxPj1A" comments="_NbaoYEkXEeqL1_AphxPj1A" targetConnectionVisual="_NbaoYUkXEeqL1_AphxPj1A" name="DemoPresentation" generalizations="_NbaBUEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qntq0EkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_Nbb2gUkXEeqL1_AphxPj1A" position="1104.0,671.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_Nbb2gkkXEeqL1_AphxPj1A" label="~"/>
+    <operations xmi:id="_Nbb2g0kXEeqL1_AphxPj1A" name="loadFile">
+      <modelElement href="Jabberpoint.uml#_qqBX8EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nbb2hEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nbb2hUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nbb2hkkXEeqL1_AphxPj1A" name="presentation">
+        <modelElement href="Jabberpoint.uml#_qqB_AEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nbb2h0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nbb2iEkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Nbb2iUkXEeqL1_AphxPj1A" name="unusedFilename">
+        <modelElement href="Jabberpoint.uml#_qqB_AUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nbb2ikkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nbb2i0kXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Nbb2jEkXEeqL1_AphxPj1A" name="saveFile">
+      <modelElement href="Jabberpoint.uml#_qqCmEEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nbb2jUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nbb2jkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nbb2j0kXEeqL1_AphxPj1A" name="presentation">
+        <modelElement href="Jabberpoint.uml#_qqCmEUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nbb2kEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nbb2kUkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Nbb2kkkXEeqL1_AphxPj1A" name="unusedFilename">
+        <modelElement href="Jabberpoint.uml#_qqCmEkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nbb2k0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nbb2lEkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NbPpQEkXEeqL1_AphxPj1A" comments="_NbMl8EkXEeqL1_AphxPj1A" targetConnectionVisual="_NbMl8UkXEeqL1_AphxPj1A" name="BitmapItem" associationsOut="_NbMl8kkXEeqL1_AphxPj1A" generalizations="_NcPu0kkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qoa1cEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_NbQQUEkXEeqL1_AphxPj1A" position="18.0,1152.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NbQQUUkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_NbQQUkkXEeqL1_AphxPj1A" name="bufferedImage">
+      <modelElement href="Jabberpoint.uml#_qrZQ8EkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtNncEkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_NbQQU0kXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrZ4AEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NbQQVEkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NbQQVUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbQQVkkXEeqL1_AphxPj1A" name="BufferedImage">
+        <modelElement href="Jabberpoint.uml#_J6Hd0DvPEeq_l_FaqSEw-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbQQV0kXEeqL1_AphxPj1A" name="imageName">
+      <modelElement href="Jabberpoint.uml#_qrZ4AUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtNncUkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_NbQQWEkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrafEEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NbQQWUkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NbQQWkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbQQW0kXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbQQXEkXEeqL1_AphxPj1A" defaultValue="&quot;Bestand &quot;" name="FILE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrafEUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtNnckkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbQQXUkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbQQXkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbQQX0kXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbQQYEkXEeqL1_AphxPj1A" defaultValue="&quot; niet gevonden&quot;" name="NOTFOUND" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrafE0kUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtNnc0kXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbQQYUkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbQQYkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbQQY0kXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NbQQZEkXEeqL1_AphxPj1A" name="BitmapItem">
+      <modelElement href="Jabberpoint.uml#_qocqoEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NbQQZUkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NbQQZkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbQQZ0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NbQQaEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qodRsUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NbQQaUkXEeqL1_AphxPj1A" name="BitmapItem">
+          <modelElement href="Jabberpoint.uml#_qoa1cEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NbQQakkXEeqL1_AphxPj1A" name="level">
+        <modelElement href="Jabberpoint.uml#_qocqoUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQa0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQbEkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbQQbUkXEeqL1_AphxPj1A" name="name">
+        <modelElement href="Jabberpoint.uml#_qocqokkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQbkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQb0kXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NbQQcEkXEeqL1_AphxPj1A" name="BitmapItem">
+      <modelElement href="Jabberpoint.uml#_qodRskkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NbQQcUkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NbQQckkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbQQc0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NbQQdEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qod4wkkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NbQQdUkXEeqL1_AphxPj1A" name="BitmapItem">
+          <modelElement href="Jabberpoint.uml#_qoa1cEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NbQQdkkXEeqL1_AphxPj1A" name="getName">
+      <modelElement href="Jabberpoint.uml#_qod4w0kUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbQQd0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbQQeEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NbQQeUkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qod4xEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NbQQekkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NbQQe0kXEeqL1_AphxPj1A" name="toString">
+      <modelElement href="Jabberpoint.uml#_qofG4EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbQQfEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbQQfUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NbQQfkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qofG4UkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NbQQf0kXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NbQQgEkXEeqL1_AphxPj1A" name="getBoundingBox">
+      <modelElement href="Jabberpoint.uml#_qqWIEEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbQQgUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbQQgkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NbQQg0kXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqWIFUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NbQQhEkXEeqL1_AphxPj1A" name="Rectangle">
+          <modelElement href="Jabberpoint.uml#_J5lSUDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NbQQhUkXEeqL1_AphxPj1A" name="g">
+        <modelElement href="Jabberpoint.uml#_qqWIEUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQhkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQh0kXEeqL1_AphxPj1A" name="Graphics">
+          <modelElement href="Jabberpoint.uml#_J5mgcTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbQQiEkXEeqL1_AphxPj1A" name="observer">
+        <modelElement href="Jabberpoint.uml#_qqWIEkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQiUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQikkXEeqL1_AphxPj1A" name="ImageObserver">
+          <modelElement href="Jabberpoint.uml#_J5nukDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbQQi0kXEeqL1_AphxPj1A" name="scale">
+        <modelElement href="Jabberpoint.uml#_qqWIE0kUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQjEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQjUkXEeqL1_AphxPj1A" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbQQjkkXEeqL1_AphxPj1A" name="myStyle">
+        <modelElement href="Jabberpoint.uml#_qqWIFEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQj0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQkEkXEeqL1_AphxPj1A" name="Style">
+          <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NbQQkUkXEeqL1_AphxPj1A" name="draw">
+      <modelElement href="Jabberpoint.uml#_qqXWMEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbQQkkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbQQk0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NbQQlEkXEeqL1_AphxPj1A" name="x">
+        <modelElement href="Jabberpoint.uml#_qqXWMUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQlUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQlkkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbQQl0kXEeqL1_AphxPj1A" name="y">
+        <modelElement href="Jabberpoint.uml#_qqXWMkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQmEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQmUkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbQQmkkXEeqL1_AphxPj1A" name="scale">
+        <modelElement href="Jabberpoint.uml#_qqXWM0kUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQm0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQnEkXEeqL1_AphxPj1A" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbQQnUkXEeqL1_AphxPj1A" name="g">
+        <modelElement href="Jabberpoint.uml#_qqXWNEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQnkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQn0kXEeqL1_AphxPj1A" name="Graphics">
+          <modelElement href="Jabberpoint.uml#_J5mgcTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbQQoEkXEeqL1_AphxPj1A" name="myStyle">
+        <modelElement href="Jabberpoint.uml#_qqXWNUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQoUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQokkXEeqL1_AphxPj1A" name="Style">
+          <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbQQo0kXEeqL1_AphxPj1A" name="observer">
+        <modelElement href="Jabberpoint.uml#_qqX9QEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbQQpEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbQQpUkXEeqL1_AphxPj1A" name="ImageObserver">
+          <modelElement href="Jabberpoint.uml#_J5nukDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NbrHEEkXEeqL1_AphxPj1A" comments="_NbncsEkXEeqL1_AphxPj1A" targetConnectionVisual="_NbncsUkXEeqL1_AphxPj1A" name="MenuController" associationsOut="_NbncskkXEeqL1_AphxPj1A _Nbncs0kXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qoJvsEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_NbrHEUkXEeqL1_AphxPj1A" position="470.0,787.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NbrHEkkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_NbrHE0kXEeqL1_AphxPj1A" name="parent">
+      <modelElement href="Jabberpoint.uml#_qrMcoEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtO1kEkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_NbrHFEkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrNDsEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NbrHFUkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NbrHFkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHF0kXEeqL1_AphxPj1A" name="Frame">
+        <modelElement href="Jabberpoint.uml#_J5LpsDvPEeq_l_FaqSEw-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHGEkXEeqL1_AphxPj1A" name="presentation">
+      <modelElement href="Jabberpoint.uml#_qrNDsUkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_NbrHGUkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrNqwEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NbrHGkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NbrHG0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHHEkXEeqL1_AphxPj1A" name="Presentation">
+        <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHHUkXEeqL1_AphxPj1A" defaultValue="227L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrNqwUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtO1kUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHHkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NbrHH0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHIEkXEeqL1_AphxPj1A" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHIUkXEeqL1_AphxPj1A" defaultValue="&quot;About&quot;" name="ABOUT" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrOR0UkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtO1kkkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHIkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHI0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHJEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHJUkXEeqL1_AphxPj1A" defaultValue="&quot;File&quot;" name="FILE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrOR00kUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtO1k0kXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHJkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHJ0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHKEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHKUkXEeqL1_AphxPj1A" defaultValue="&quot;Exit&quot;" name="EXIT" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrO44UkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtO1lEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHKkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHK0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHLEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHLUkXEeqL1_AphxPj1A" defaultValue="&quot;Go to&quot;" name="GOTO" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrO440kUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtO1lUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHLkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHL0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHMEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHMUkXEeqL1_AphxPj1A" defaultValue="&quot;Help&quot;" name="HELP" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrPf8UkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtPcoEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHMkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHM0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHNEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHNUkXEeqL1_AphxPj1A" defaultValue="&quot;New&quot;" name="NEW" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrPf80kUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtPcoUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHNkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHN0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHOEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHOUkXEeqL1_AphxPj1A" defaultValue="&quot;Next&quot;" name="NEXT" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrQHAEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtPcokkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHOkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHO0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHPEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHPUkXEeqL1_AphxPj1A" defaultValue="&quot;Open&quot;" name="OPEN" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrQHAkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtPco0kXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHPkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHP0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHQEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHQUkXEeqL1_AphxPj1A" defaultValue="&quot;Page number?&quot;" name="PAGENR" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrQuEEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtPcpEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHQkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHQ0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHREkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHRUkXEeqL1_AphxPj1A" defaultValue="&quot;Prev&quot;" name="PREV" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrQuEkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtQDsEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHRkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHR0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHSEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHSUkXEeqL1_AphxPj1A" defaultValue="&quot;Save&quot;" name="SAVE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrRVIUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtQDsUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHSkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHS0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHTEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHTUkXEeqL1_AphxPj1A" defaultValue="&quot;View&quot;" name="VIEW" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrRVI0kUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtQDskkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHTkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHT0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHUEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHUUkXEeqL1_AphxPj1A" defaultValue="&quot;test.xml&quot;" name="TESTFILE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrRVJUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtQDs0kXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHUkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHU0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHVEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHVUkXEeqL1_AphxPj1A" defaultValue="&quot;dump.xml&quot;" name="SAVEFILE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrR8MUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtQDtEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHVkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHV0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHWEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHWUkXEeqL1_AphxPj1A" defaultValue="&quot;IO Exception: &quot;" name="IOEX" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrSjQUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtQDtUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHWkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHW0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHXEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHXUkXEeqL1_AphxPj1A" defaultValue="&quot;Load Error&quot;" name="LOADERR" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrSjQ0kUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtQqwEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHXkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHX0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHYEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbrHYUkXEeqL1_AphxPj1A" defaultValue="&quot;Save Error&quot;" name="SAVEERR" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrSjRUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtQqwUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NbrHYkkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NbrHY0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbrHZEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NbrHZUkXEeqL1_AphxPj1A" name="mkMenuItem">
+      <modelElement href="Jabberpoint.uml#_qoNaEEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbrHZkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbrHZ0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NbrHaEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qoOBIUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NbrHaUkXEeqL1_AphxPj1A" name="MenuItem">
+          <modelElement href="Jabberpoint.uml#_J54NQTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NbrHakkXEeqL1_AphxPj1A" name="name">
+        <modelElement href="Jabberpoint.uml#_qoOBIEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbrHa0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbrHbEkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NbrHbUkXEeqL1_AphxPj1A" name="MenuController">
+      <modelElement href="Jabberpoint.uml#_qqM-IEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NbrHbkkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NbrHb0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbrHcEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NbrHcUkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqNlNEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NbrHckkXEeqL1_AphxPj1A" name="MenuController">
+          <modelElement href="Jabberpoint.uml#_qoJvsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NbrHc0kXEeqL1_AphxPj1A" name="frame">
+        <modelElement href="Jabberpoint.uml#_qqNlMEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbrHdEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbrHdUkXEeqL1_AphxPj1A" name="Frame">
+          <modelElement href="Jabberpoint.uml#_J5LpsDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbrHdkkXEeqL1_AphxPj1A" name="pres">
+        <modelElement href="Jabberpoint.uml#_qqNlMUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbrHd0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbrHeEkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NcaG4EkXEeqL1_AphxPj1A" comments="_NcVOYEkXEeqL1_AphxPj1A" targetConnectionVisual="_NcV1cEkXEeqL1_AphxPj1A" name="SlideViewerComponent" associationsIn="_Nb4icEkXEeqL1_AphxPj1A" associationsOut="_NcEIokkXEeqL1_AphxPj1A _Nb37YEkXEeqL1_AphxPj1A _NcV1cUkXEeqL1_AphxPj1A _NcV1ckkXEeqL1_AphxPj1A _NcV1c0kXEeqL1_AphxPj1A _NcV1dEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qoS5oEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_NcaG4UkXEeqL1_AphxPj1A" position="1052.0,430.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NcaG4kkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_NcaG40kXEeqL1_AphxPj1A" name="slide">
+      <modelElement href="Jabberpoint.uml#_qrTxYEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcaG5EkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaG5UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaG5kkXEeqL1_AphxPj1A" name="Slide">
+        <modelElement href="Jabberpoint.uml#_qoAlwEkUEeqL1_AphxPj1A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaG50kXEeqL1_AphxPj1A" defaultValue="null" name="labelFont">
+      <modelElement href="Jabberpoint.uml#_qrU_gEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtR44kkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_NcaG6EkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrU_gkkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcaG6UkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaG6kkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaG60kXEeqL1_AphxPj1A" name="Font">
+        <modelElement href="Jabberpoint.uml#_J5_iADvPEeq_l_FaqSEw-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaG7EkXEeqL1_AphxPj1A" defaultValue="null" name="presentation">
+      <modelElement href="Jabberpoint.uml#_qrVmkEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcaG7UkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaG7kkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaG70kXEeqL1_AphxPj1A" name="Presentation">
+        <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaG8EkXEeqL1_AphxPj1A" defaultValue="null" name="frame">
+      <modelElement href="Jabberpoint.uml#_qrVmk0kUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_NcaG8UkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrWNoUkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcaG8kkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaG80kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaG9EkXEeqL1_AphxPj1A" name="JFrame">
+        <modelElement href="Jabberpoint.uml#_J5bhUDvPEeq_l_FaqSEw-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaG9UkXEeqL1_AphxPj1A" defaultValue="227L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrWNokkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtSf8EkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcaG9kkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaG90kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaG-EkXEeqL1_AphxPj1A" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaG-UkXEeqL1_AphxPj1A" defaultValue="Color.white" name="BGCOLOR" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrW0sUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtSf8UkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcaG-kkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaG-0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaG_EkXEeqL1_AphxPj1A" name="Color">
+        <modelElement href="Jabberpoint.uml#_J5-T4DvPEeq_l_FaqSEw-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaG_UkXEeqL1_AphxPj1A" defaultValue="Color.black" name="COLOR" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrW0s0kUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtSf8kkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcaG_kkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaG_0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaHAEkXEeqL1_AphxPj1A" name="Color">
+        <modelElement href="Jabberpoint.uml#_J5-T4DvPEeq_l_FaqSEw-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaHAUkXEeqL1_AphxPj1A" defaultValue="&quot;Dialog&quot;" name="FONTNAME" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrXbwUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtSf80kXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcaHAkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaHA0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaHBEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaHBUkXEeqL1_AphxPj1A" defaultValue="Font.BOLD" name="FONTSTYLE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrXbw0kUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtSf9EkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcaHBkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaHB0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaHCEkXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaHCUkXEeqL1_AphxPj1A" defaultValue="10" name="FONTHEIGHT" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrYC0EkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtTHAEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcaHCkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaHC0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaHDEkXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaHDUkXEeqL1_AphxPj1A" defaultValue="1100" name="XPOS" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrYC0kkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtTHAUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcaHDkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaHD0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaHEEkXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcaHEUkXEeqL1_AphxPj1A" defaultValue="20" name="YPOS" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrYp4EkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtTHAkkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcaHEkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcaHE0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcaHFEkXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NcaHFUkXEeqL1_AphxPj1A" name="getPreferredSize">
+      <modelElement href="Jabberpoint.uml#_qoUu0EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcaHFkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcaHF0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcaHGEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qoVV4EkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcaHGUkXEeqL1_AphxPj1A" name="Dimension">
+          <modelElement href="Jabberpoint.uml#_J5X28DvPEeq_l_FaqSEw-A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NcaHGkkXEeqL1_AphxPj1A" name="paintComponent">
+      <modelElement href="Jabberpoint.uml#_qoV88EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcaHG0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcaHHEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NcaHHUkXEeqL1_AphxPj1A" name="g">
+        <modelElement href="Jabberpoint.uml#_qoV88UkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcaHHkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcaHH0kXEeqL1_AphxPj1A" name="Graphics">
+          <modelElement href="Jabberpoint.uml#_J5mgcTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcaHIEkXEeqL1_AphxPj1A" name="SlideViewerComponent">
+      <modelElement href="Jabberpoint.uml#_qqSdsEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NcaHIUkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NcaHIkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcaHI0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcaHJEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqTEwEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcaHJUkXEeqL1_AphxPj1A" name="SlideViewerComponent">
+          <modelElement href="Jabberpoint.uml#_qoS5oEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NcaHJkkXEeqL1_AphxPj1A" name="pres">
+        <modelElement href="Jabberpoint.uml#_qqSdsUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcaHJ0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcaHKEkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcaHKUkXEeqL1_AphxPj1A" name="frame">
+        <modelElement href="Jabberpoint.uml#_qqSdskkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcaHKkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcaHK0kXEeqL1_AphxPj1A" name="JFrame">
+          <modelElement href="Jabberpoint.uml#_J5bhUDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcaHLEkXEeqL1_AphxPj1A" name="update">
+      <modelElement href="Jabberpoint.uml#_qqTEwUkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcaHLUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcaHLkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NcaHL0kXEeqL1_AphxPj1A" name="presentation">
+        <modelElement href="Jabberpoint.uml#_qqTEwkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcaHMEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcaHMUkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcaHMkkXEeqL1_AphxPj1A" name="data">
+        <modelElement href="Jabberpoint.uml#_qqTEw0kUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcaHM0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcaHNEkXEeqL1_AphxPj1A" name="Slide">
+          <modelElement href="Jabberpoint.uml#_qoAlwEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NcyhYEkXEeqL1_AphxPj1A" comments="_NcwFIEkXEeqL1_AphxPj1A" targetConnectionVisual="_NcwFIUkXEeqL1_AphxPj1A" name="TextItem" generalizations="_NcveEEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qoqGAEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_NcyhYUkXEeqL1_AphxPj1A" position="628.0,1143.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NcyhYkkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_NcyhY0kXEeqL1_AphxPj1A" name="text">
+      <modelElement href="Jabberpoint.uml#_qrf-oEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtUVIUkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_NcyhZEkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrglsEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcyhZUkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcyhZkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcyhZ0kXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcyhaEkXEeqL1_AphxPj1A" defaultValue="&quot;No Text Given&quot;" name="EMPTYTEXT" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrglsUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtUVIkkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcyhaUkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcyhakkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ncyha0kXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NcyhbEkXEeqL1_AphxPj1A" name="TextItem">
+      <modelElement href="Jabberpoint.uml#_qorUIEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NcyhbUkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NcyhbkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Ncyhb0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcyhcEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qorUJUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcyhcUkXEeqL1_AphxPj1A" name="TextItem">
+          <modelElement href="Jabberpoint.uml#_qoqGAEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NcyhckkXEeqL1_AphxPj1A" name="level">
+        <modelElement href="Jabberpoint.uml#_qorUIUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncyhc0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhdEkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcyhdUkXEeqL1_AphxPj1A" name="string">
+        <modelElement href="Jabberpoint.uml#_qorUIkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhdkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncyhd0kXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcyheEkXEeqL1_AphxPj1A" name="TextItem">
+      <modelElement href="Jabberpoint.uml#_qor7MEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NcyheUkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NcyhekkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Ncyhe0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcyhfEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qor7M0kUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcyhfUkXEeqL1_AphxPj1A" name="TextItem">
+          <modelElement href="Jabberpoint.uml#_qoqGAEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NcyhfkkXEeqL1_AphxPj1A" name="getText">
+      <modelElement href="Jabberpoint.uml#_qor7NEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Ncyhf0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcyhgEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcyhgUkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qosiQEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcyhgkkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ncyhg0kXEeqL1_AphxPj1A" name="toString">
+      <modelElement href="Jabberpoint.uml#_qotwYEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcyhhEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcyhhUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcyhhkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qotwYUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Ncyhh0kXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NcyhiEkXEeqL1_AphxPj1A" name="getAttributedString">
+      <modelElement href="Jabberpoint.uml#_qqc1wEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcyhiUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcyhikkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ncyhi0kXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqdc0kkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcyhjEkXEeqL1_AphxPj1A" name="AttributedString">
+          <modelElement href="Jabberpoint.uml#_J6U5MTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NcyhjUkXEeqL1_AphxPj1A" name="style">
+        <modelElement href="Jabberpoint.uml#_qqdc0EkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhjkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncyhj0kXEeqL1_AphxPj1A" name="Style">
+          <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcyhkEkXEeqL1_AphxPj1A" name="scale">
+        <modelElement href="Jabberpoint.uml#_qqdc0UkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhkUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhkkkXEeqL1_AphxPj1A" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ncyhk0kXEeqL1_AphxPj1A" name="getBoundingBox">
+      <modelElement href="Jabberpoint.uml#_qqeD4EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcyhlEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcyhlUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcyhlkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqeq8EkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Ncyhl0kXEeqL1_AphxPj1A" name="Rectangle">
+          <modelElement href="Jabberpoint.uml#_J5lSUDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NcyhmEkXEeqL1_AphxPj1A" name="g">
+        <modelElement href="Jabberpoint.uml#_qqeD4UkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhmUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhmkkXEeqL1_AphxPj1A" name="Graphics">
+          <modelElement href="Jabberpoint.uml#_J5mgcTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ncyhm0kXEeqL1_AphxPj1A" name="observer">
+        <modelElement href="Jabberpoint.uml#_qqeD4kkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhnEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhnUkXEeqL1_AphxPj1A" name="ImageObserver">
+          <modelElement href="Jabberpoint.uml#_J5nukDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcyhnkkXEeqL1_AphxPj1A" name="scale">
+        <modelElement href="Jabberpoint.uml#_qqeD40kUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncyhn0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhoEkXEeqL1_AphxPj1A" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcyhoUkXEeqL1_AphxPj1A" name="myStyle">
+        <modelElement href="Jabberpoint.uml#_qqeD5EkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhokkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncyho0kXEeqL1_AphxPj1A" name="Style">
+          <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcyhpEkXEeqL1_AphxPj1A" name="draw">
+      <modelElement href="Jabberpoint.uml#_qqfSAEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcyhpUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcyhpkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Ncyhp0kXEeqL1_AphxPj1A" name="x">
+        <modelElement href="Jabberpoint.uml#_qqfSAUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhqEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhqUkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcyhqkkXEeqL1_AphxPj1A" name="y">
+        <modelElement href="Jabberpoint.uml#_qqfSAkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncyhq0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhrEkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcyhrUkXEeqL1_AphxPj1A" name="scale">
+        <modelElement href="Jabberpoint.uml#_qqfSA0kUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhrkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncyhr0kXEeqL1_AphxPj1A" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcyhsEkXEeqL1_AphxPj1A" name="g">
+        <modelElement href="Jabberpoint.uml#_qqfSBEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhsUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhskkXEeqL1_AphxPj1A" name="Graphics">
+          <modelElement href="Jabberpoint.uml#_J5mgcTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ncyhs0kXEeqL1_AphxPj1A" name="myStyle">
+        <modelElement href="Jabberpoint.uml#_qqfSBUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhtEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhtUkXEeqL1_AphxPj1A" name="Style">
+          <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcyhtkkXEeqL1_AphxPj1A" name="o">
+        <modelElement href="Jabberpoint.uml#_qqfSBkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncyht0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhuEkXEeqL1_AphxPj1A" name="ImageObserver">
+          <modelElement href="Jabberpoint.uml#_J5nukDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcyhuUkXEeqL1_AphxPj1A" name="getLayouts">
+      <modelElement href="Jabberpoint.uml#_qqggIEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtUVI0kXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcyhukkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Ncyhu0kXEeqL1_AphxPj1A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_NcyhvEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqhHMEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcyhvUkXEeqL1_AphxPj1A" name="TextLayout">
+          <modelElement href="Jabberpoint.uml#_J6R14TvPEeq_l_FaqSEw-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NcyhvkkXEeqL1_AphxPj1A" name="g">
+        <modelElement href="Jabberpoint.uml#_qqggIUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncyhv0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhwEkXEeqL1_AphxPj1A" name="Graphics">
+          <modelElement href="Jabberpoint.uml#_J5mgcTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcyhwUkXEeqL1_AphxPj1A" name="s">
+        <modelElement href="Jabberpoint.uml#_qqggIkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhwkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncyhw0kXEeqL1_AphxPj1A" name="Style">
+          <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcyhxEkXEeqL1_AphxPj1A" name="scale">
+        <modelElement href="Jabberpoint.uml#_qqggI0kUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcyhxUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcyhxkkXEeqL1_AphxPj1A" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NcIaEEkXEeqL1_AphxPj1A" comments="_NcEIoEkXEeqL1_AphxPj1A" targetConnectionVisual="_NcEIoUkXEeqL1_AphxPj1A" name="Slide" associationsIn="_NcEIokkXEeqL1_AphxPj1A" associationsOut="_NcEvsEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qoAlwEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_NcIaEUkXEeqL1_AphxPj1A" position="1115.0,89.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NcIaEkkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_NcIaE0kXEeqL1_AphxPj1A" defaultValue="1200" name="WIDTH" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qq9MEEkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_NcIaFEkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qq9zIEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcIaFUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaFkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcIaF0kXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcIaGEkXEeqL1_AphxPj1A" defaultValue="800" name="HEIGHT" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qq9zIUkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_NcIaGUkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qq-aMUkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcIaGkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaG0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcIaHEkXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcIaHUkXEeqL1_AphxPj1A" name="title">
+      <modelElement href="Jabberpoint.uml#_qq-aMkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtRR0kkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_NcIaHkkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qq_BQEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcIaH0kXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NcIaIEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcIaIUkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcIaIkkXEeqL1_AphxPj1A" name="items">
+      <modelElement href="Jabberpoint.uml#_qrJZUEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtR44EkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_NcIaI0kXEeqL1_AphxPj1A" name="Generics">
+        <modelElement href="Jabberpoint.uml#_qrLOgEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NcIaJEkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrLOgUkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcIaJUkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_NcIaJkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcIaJ0kXEeqL1_AphxPj1A" name="Vector">
+        <modelElement href="Jabberpoint.uml#_J5xfkDvPEeq_l_FaqSEw-A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NcIaKEkXEeqL1_AphxPj1A" name="Slide">
+      <modelElement href="Jabberpoint.uml#_qoCa8EkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NcIaKUkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NcIaKkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaK0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcIaLEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qoDCAEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcIaLUkXEeqL1_AphxPj1A" name="Slide">
+          <modelElement href="Jabberpoint.uml#_qoAlwEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NcIaLkkXEeqL1_AphxPj1A" name="getTitle">
+      <modelElement href="Jabberpoint.uml#_qoDCAUkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcIaL0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaMEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcIaMUkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qoDpEEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcIaMkkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NcIaM0kXEeqL1_AphxPj1A" name="setTitle">
+      <modelElement href="Jabberpoint.uml#_qoDpEUkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcIaNEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaNUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NcIaNkkXEeqL1_AphxPj1A" name="newTitle">
+        <modelElement href="Jabberpoint.uml#_qoEQIEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcIaN0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcIaOEkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcIaOUkXEeqL1_AphxPj1A" name="append">
+      <modelElement href="Jabberpoint.uml#_qoE3MEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcIaOkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaO0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NcIaPEkXEeqL1_AphxPj1A" name="level">
+        <modelElement href="Jabberpoint.uml#_qoE3MUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcIaPUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcIaPkkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcIaP0kXEeqL1_AphxPj1A" name="message">
+        <modelElement href="Jabberpoint.uml#_qoE3MkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcIaQEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcIaQUkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcIaQkkXEeqL1_AphxPj1A" name="getSlideItem">
+      <modelElement href="Jabberpoint.uml#_qoE3M0kUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcIaQ0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaREkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcIaRUkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqKh4EkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcIaRkkXEeqL1_AphxPj1A" name="SlideItem">
+          <modelElement href="Jabberpoint.uml#_qnzKYEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NcIaR0kXEeqL1_AphxPj1A" name="number">
+        <modelElement href="Jabberpoint.uml#_qoFeQEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcIaSEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcIaSUkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcIaSkkXEeqL1_AphxPj1A" name="getSlideItems">
+      <modelElement href="Jabberpoint.uml#_qoFeQUkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_NcIaS0kXEeqL1_AphxPj1A" name="Generics">
+        <modelElement href="Jabberpoint.uml#_qoGsYEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcIaTEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaTUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcIaTkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qoFeQkkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcIaT0kXEeqL1_AphxPj1A" name="Vector">
+          <modelElement href="Jabberpoint.uml#_J5xfkDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NcIaUEkXEeqL1_AphxPj1A" name="getSize">
+      <modelElement href="Jabberpoint.uml#_qoGsYUkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcIaUUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaUkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcIaU0kXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qoGsYkkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcIaVEkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NcIaVUkXEeqL1_AphxPj1A" name="draw">
+      <modelElement href="Jabberpoint.uml#_qoHTcEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcIaVkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaV0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NcIaWEkXEeqL1_AphxPj1A" name="g">
+        <modelElement href="Jabberpoint.uml#_qoHTcUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcIaWUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcIaWkkXEeqL1_AphxPj1A" name="Graphics">
+          <modelElement href="Jabberpoint.uml#_J5mgcTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcIaW0kXEeqL1_AphxPj1A" name="area">
+        <modelElement href="Jabberpoint.uml#_qoHTckkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcIaXEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcIaXUkXEeqL1_AphxPj1A" name="Rectangle">
+          <modelElement href="Jabberpoint.uml#_J5lSUDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcIaXkkXEeqL1_AphxPj1A" name="view">
+        <modelElement href="Jabberpoint.uml#_qoHTc0kUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcIaX0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcIaYEkXEeqL1_AphxPj1A" name="ImageObserver">
+          <modelElement href="Jabberpoint.uml#_J5nukDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcIaYUkXEeqL1_AphxPj1A" name="getScale">
+      <modelElement href="Jabberpoint.uml#_qoH6gEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtR44UkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcIaYkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcIaY0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcIaZEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qoH6gkkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcIaZUkXEeqL1_AphxPj1A" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NcIaZkkXEeqL1_AphxPj1A" name="area">
+        <modelElement href="Jabberpoint.uml#_qoH6gUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcIaZ0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcIaaEkXEeqL1_AphxPj1A" name="Rectangle">
+          <modelElement href="Jabberpoint.uml#_J5lSUDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcIaaUkXEeqL1_AphxPj1A" name="append">
+      <modelElement href="Jabberpoint.uml#_qqJ60EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcIaakkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcIaa0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NcIabEkXEeqL1_AphxPj1A" name="anItem">
+        <modelElement href="Jabberpoint.uml#_qqJ60UkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcIabUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcIabkkXEeqL1_AphxPj1A" name="SlideItem">
+          <modelElement href="Jabberpoint.uml#_qnzKYEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Nb4ieUkXEeqL1_AphxPj1A" comments="_Nb0RAEkXEeqL1_AphxPj1A" targetConnectionVisual="_Nb0RAUkXEeqL1_AphxPj1A" name="Presentation" associationsIn="_NbjLQEkXEeqL1_AphxPj1A _Nbncs0kXEeqL1_AphxPj1A _Nb37YEkXEeqL1_AphxPj1A" associationsOut="_Nb0RAkkXEeqL1_AphxPj1A _Nb4icEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_Nb4iekkXEeqL1_AphxPj1A" position="459.0,290.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Nb4ie0kXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_Nb4ifEkXEeqL1_AphxPj1A" name="showTitle">
+      <modelElement href="Jabberpoint.uml#_qq46oEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtQqwkkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_Nb4ifUkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qq5hsEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Nb4ifkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Nb4if0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nb4igEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nb4igUkXEeqL1_AphxPj1A" defaultValue="null" name="showList">
+      <modelElement href="Jabberpoint.uml#_qq5hsUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtQqw0kXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_Nb4igkkXEeqL1_AphxPj1A" name="Generics">
+        <modelElement href="Jabberpoint.uml#_qq6v0EkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Nb4ig0kXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qq6v0kkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Nb4ihEkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Nb4ihUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nb4ihkkXEeqL1_AphxPj1A" name="ArrayList">
+        <modelElement href="Jabberpoint.uml#_J5rY8DvPEeq_l_FaqSEw-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nb4ih0kXEeqL1_AphxPj1A" defaultValue="0" name="currentSlideNumber">
+      <modelElement href="Jabberpoint.uml#_qq6v00kUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtRR0EkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_Nb4iiEkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qq7W4UkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Nb4iiUkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Nb4iikkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nb4ii0kXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nb4ijEkXEeqL1_AphxPj1A" defaultValue="null" name="slideViewComponent">
+      <modelElement href="Jabberpoint.uml#_qq7W4kkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_Nb4ijUkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qq798EkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Nb4ijkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Nb4ij0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nb4ikEkXEeqL1_AphxPj1A" name="SlideViewerComponent">
+        <modelElement href="Jabberpoint.uml#_qoS5oEkUEeqL1_AphxPj1A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Nb4ikUkXEeqL1_AphxPj1A" name="Presentation">
+      <modelElement href="Jabberpoint.uml#_qn3b0EkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_Nb4ikkkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_Nb4ik0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4ilEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Nb4ilUkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qn3b00kUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Nb4ilkkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Nb4il0kXEeqL1_AphxPj1A" name="getSize">
+      <modelElement href="Jabberpoint.uml#_qn4C4EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4imEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4imUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Nb4imkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qn4p8EkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Nb4im0kXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Nb4inEkXEeqL1_AphxPj1A" name="getTitle">
+      <modelElement href="Jabberpoint.uml#_qn4p8UkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4inUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4inkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Nb4in0kXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qn4p8kkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Nb4ioEkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Nb4ioUkXEeqL1_AphxPj1A" name="setTitle">
+      <modelElement href="Jabberpoint.uml#_qn5RAEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4iokkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4io0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nb4ipEkXEeqL1_AphxPj1A" name="nt">
+        <modelElement href="Jabberpoint.uml#_qn5RAUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nb4ipUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nb4ipkkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Nb4ip0kXEeqL1_AphxPj1A" name="getSlideNumber">
+      <modelElement href="Jabberpoint.uml#_qn54EEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4iqEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4iqUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Nb4iqkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qn54EUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Nb4iq0kXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Nb4irEkXEeqL1_AphxPj1A" name="setSlideNumber">
+      <modelElement href="Jabberpoint.uml#_qn54EkkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4irUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4irkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nb4ir0kXEeqL1_AphxPj1A" name="number">
+        <modelElement href="Jabberpoint.uml#_qn54E0kUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nb4isEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nb4isUkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Nb4iskkXEeqL1_AphxPj1A" name="prevSlide">
+      <modelElement href="Jabberpoint.uml#_qn6fIEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4is0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4itEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Nb4itUkXEeqL1_AphxPj1A" name="nextSlide">
+      <modelElement href="Jabberpoint.uml#_qn6fIUkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4itkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4it0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Nb4iuEkXEeqL1_AphxPj1A" name="clear">
+      <modelElement href="Jabberpoint.uml#_qn6fIkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtRR0UkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nb4iuUkXEeqL1_AphxPj1A" label="~"/>
+      <cardinality xmi:id="_Nb4iukkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Nb4iu0kXEeqL1_AphxPj1A" name="getSlide">
+      <modelElement href="Jabberpoint.uml#_qn7GMEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4ivEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4ivUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Nb4ivkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqIssEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Nb4iv0kXEeqL1_AphxPj1A" name="Slide">
+          <modelElement href="Jabberpoint.uml#_qoAlwEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Nb4iwEkXEeqL1_AphxPj1A" name="number">
+        <modelElement href="Jabberpoint.uml#_qn7GMUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nb4iwUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nb4iwkkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Nb4iw0kXEeqL1_AphxPj1A" name="getCurrentSlide">
+      <modelElement href="Jabberpoint.uml#_qn7tQEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4ixEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4ixUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Nb4ixkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqIssUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Nb4ix0kXEeqL1_AphxPj1A" name="Slide">
+          <modelElement href="Jabberpoint.uml#_qoAlwEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Nb4iyEkXEeqL1_AphxPj1A" name="exit">
+      <modelElement href="Jabberpoint.uml#_qn8UUEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4iyUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4iykkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nb4iy0kXEeqL1_AphxPj1A" name="n">
+        <modelElement href="Jabberpoint.uml#_qn8UUUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nb4izEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nb4izUkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Nb4izkkXEeqL1_AphxPj1A" name="Presentation">
+      <modelElement href="Jabberpoint.uml#_qqG3gEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_Nb4iz0kXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_Nb4i0EkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4i0UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Nb4i0kkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqHekUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Nb4i00kXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Nb4i1EkXEeqL1_AphxPj1A" name="slideViewerComponent">
+        <modelElement href="Jabberpoint.uml#_qqG3gUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nb4i1UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nb4i1kkXEeqL1_AphxPj1A" name="SlideViewerComponent">
+          <modelElement href="Jabberpoint.uml#_qoS5oEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Nb4i10kXEeqL1_AphxPj1A" name="setShowView">
+      <modelElement href="Jabberpoint.uml#_qqHekkkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4i2EkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4i2UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nb4i2kkXEeqL1_AphxPj1A" name="slideViewerComponent">
+        <modelElement href="Jabberpoint.uml#_qqHek0kUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nb4i20kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nb4i3EkXEeqL1_AphxPj1A" name="SlideViewerComponent">
+          <modelElement href="Jabberpoint.uml#_qoS5oEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Nb4i3UkXEeqL1_AphxPj1A" name="append">
+      <modelElement href="Jabberpoint.uml#_qqIFoEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nb4i3kkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nb4i30kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nb4i4EkXEeqL1_AphxPj1A" name="slide">
+        <modelElement href="Jabberpoint.uml#_qqIFoUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nb4i4UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nb4i4kkXEeqL1_AphxPj1A" name="Slide">
+          <modelElement href="Jabberpoint.uml#_qoAlwEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NbkZYkkXEeqL1_AphxPj1A" comments="_NbikMEkXEeqL1_AphxPj1A" targetConnectionVisual="_NbikMUkXEeqL1_AphxPj1A" name="KeyController" associationsOut="_NbjLQEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qnxVMEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_NbkZY0kXEeqL1_AphxPj1A" position="568.0,89.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NbkZZEkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_NbkZZUkXEeqL1_AphxPj1A" name="presentation">
+      <modelElement href="Jabberpoint.uml#_qq3sgEkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_NbkZZkkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qq3sgUkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NbkZZ0kXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NbkZaEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbkZaUkXEeqL1_AphxPj1A" name="Presentation">
+        <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NbkZakkXEeqL1_AphxPj1A" name="keyPressed">
+      <modelElement href="Jabberpoint.uml#_qnx8QEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbkZa0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbkZbEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NbkZbUkXEeqL1_AphxPj1A" name="keyEvent">
+        <modelElement href="Jabberpoint.uml#_qnx8QUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbkZbkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbkZb0kXEeqL1_AphxPj1A" name="KeyEvent">
+          <modelElement href="Jabberpoint.uml#_J5hn8DvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NbkZcEkXEeqL1_AphxPj1A" name="KeyController">
+      <modelElement href="Jabberpoint.uml#_qqD0MEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NbkZcUkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NbkZckkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbkZc0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NbkZdEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqD0NEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NbkZdUkXEeqL1_AphxPj1A" name="KeyController">
+          <modelElement href="Jabberpoint.uml#_qnxVMEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NbkZdkkXEeqL1_AphxPj1A" name="p">
+        <modelElement href="Jabberpoint.uml#_qqD0MUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbkZd0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbkZeEkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NbI7kEkXEeqL1_AphxPj1A" comments="_NbHGYEkXEeqL1_AphxPj1A" targetConnectionVisual="_NbHGYUkXEeqL1_AphxPj1A" name="Accessor" abstractClass="true" subclassedBy="_NbaBUEkXEeqL1_AphxPj1A _Nc4A8EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qnkg4EkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_NbI7kUkXEeqL1_AphxPj1A" position="1356.0,911.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NbI7kkkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_NbI7k0kXEeqL1_AphxPj1A" defaultValue="&quot;Demonstratie presentatie&quot;" name="DEMO_NAME" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qqyM8EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbI7lEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbI7lUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbI7lkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NbI7l0kXEeqL1_AphxPj1A" defaultValue="&quot;.xml&quot;" name="DEFAULT_EXTENSION" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qqy0AEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbI7mEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbI7mUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NbI7mkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NbI7m0kXEeqL1_AphxPj1A" name="getDemoAccessor" staticOperation="true">
+      <modelElement href="Jabberpoint.uml#_qnlH8EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NbI7nEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbI7nUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NbI7nkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qp8fcEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NbI7n0kXEeqL1_AphxPj1A" name="Accessor">
+          <modelElement href="Jabberpoint.uml#_qnkg4EkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NbI7oEkXEeqL1_AphxPj1A" name="Accessor">
+      <modelElement href="Jabberpoint.uml#_qnlvAEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NbI7oUkXEeqL1_AphxPj1A" keyword="create"/>
+      <stereotypes xmi:id="_NbI7okkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qnmWEkkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NbI7o0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbI7pEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NbI7pUkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qnm9IEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NbI7pkkXEeqL1_AphxPj1A" name="Accessor">
+          <modelElement href="Jabberpoint.uml#_qnkg4EkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NbI7p0kXEeqL1_AphxPj1A" abstractOperation="true" name="loadFile">
+      <modelElement href="Jabberpoint.uml#_qp9GgEkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_NbI7qEkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qp9tkEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NbI7qUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbI7qkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NbI7q0kXEeqL1_AphxPj1A" name="p">
+        <modelElement href="Jabberpoint.uml#_qp9GgUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbI7rEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbI7rUkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbI7rkkXEeqL1_AphxPj1A" name="fn">
+        <modelElement href="Jabberpoint.uml#_qp9GgkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbI7r0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbI7sEkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NbI7sUkXEeqL1_AphxPj1A" abstractOperation="true" name="saveFile">
+      <modelElement href="Jabberpoint.uml#_qp-UoEkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_NbI7skkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qp-Uo0kUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NbI7s0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NbI7tEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NbI7tUkXEeqL1_AphxPj1A" name="p">
+        <modelElement href="Jabberpoint.uml#_qp-UoUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbI7tkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbI7t0kXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NbI7uEkXEeqL1_AphxPj1A" name="fn">
+        <modelElement href="Jabberpoint.uml#_qp-UokkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NbI7uUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NbI7ukkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Nc7EQEkXEeqL1_AphxPj1A" comments="_Nc4A8UkXEeqL1_AphxPj1A" targetConnectionVisual="_Nc4A8kkXEeqL1_AphxPj1A" name="XMLAccessor" generalizations="_Nc4A8EkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qowzsEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_Nc7EQUkXEeqL1_AphxPj1A" position="1362.0,1134.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Nc7EQkkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_Nc7EQ0kXEeqL1_AphxPj1A" defaultValue="&quot;dom&quot;" name="DEFAULT_API_TO_USE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrhz0EkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtUVJEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EREkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7ERUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7ERkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7ER0kXEeqL1_AphxPj1A" defaultValue="&quot;showtitle&quot;" name="SHOWTITLE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrhz0kkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtUVJUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7ESEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7ESUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7ESkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7ES0kXEeqL1_AphxPj1A" defaultValue="&quot;title&quot;" name="SLIDETITLE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qria4EkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtU8MEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7ETEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7ETUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7ETkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7ET0kXEeqL1_AphxPj1A" defaultValue="&quot;slide&quot;" name="SLIDE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qria4kkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtU8MUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EUEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7EUUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7EUkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7EU0kXEeqL1_AphxPj1A" defaultValue="&quot;item&quot;" name="ITEM" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrjB8EkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtU8MkkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EVEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7EVUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7EVkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7EV0kXEeqL1_AphxPj1A" defaultValue="&quot;level&quot;" name="LEVEL" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrjB8kkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtU8M0kXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EWEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7EWUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7EWkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7EW0kXEeqL1_AphxPj1A" defaultValue="&quot;kind&quot;" name="KIND" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrjB9EkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtU8NEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EXEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7EXUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7EXkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7EX0kXEeqL1_AphxPj1A" defaultValue="&quot;text&quot;" name="TEXT" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrjpAEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtU8NUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EYEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7EYUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7EYkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7EY0kXEeqL1_AphxPj1A" defaultValue="&quot;image&quot;" name="IMAGE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrjpAkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtU8NkkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EZEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7EZUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7EZkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7EZ0kXEeqL1_AphxPj1A" defaultValue="&quot;Parser Configuration Exception&quot;" name="PCE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrkQEEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtU8N0kXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EaEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7EaUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7EakkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7Ea0kXEeqL1_AphxPj1A" defaultValue="&quot;Unknown Element type&quot;" name="UNKNOWNTYPE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrkQEkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtVjQEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EbEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7EbUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7EbkkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nc7Eb0kXEeqL1_AphxPj1A" defaultValue="&quot;Number Format Exception&quot;" name="NFE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrkQFEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtVjQUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EcEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7EcUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nc7EckkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Nc7Ec0kXEeqL1_AphxPj1A" name="getTitle">
+      <modelElement href="Jabberpoint.uml#_qozP8EkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtVjQkkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EdEkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Nc7EdUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Nc7EdkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qo0eEEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Nc7Ed0kXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Nc7EeEkXEeqL1_AphxPj1A" name="element">
+        <modelElement href="Jabberpoint.uml#_qoz3AEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nc7EeUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nc7EekkXEeqL1_AphxPj1A" name="Element">
+          <modelElement href="Jabberpoint.uml#_J6fRQDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Nc7Ee0kXEeqL1_AphxPj1A" name="tagName">
+        <modelElement href="Jabberpoint.uml#_qoz3AUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nc7EfEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nc7EfUkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Nc7EfkkXEeqL1_AphxPj1A" name="loadFile">
+      <modelElement href="Jabberpoint.uml#_qqjjcEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nc7Ef0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nc7EgEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nc7EgUkXEeqL1_AphxPj1A" name="presentation">
+        <modelElement href="Jabberpoint.uml#_qqjjcUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nc7EgkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nc7Eg0kXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Nc7EhEkXEeqL1_AphxPj1A" name="filename">
+        <modelElement href="Jabberpoint.uml#_qqjjckkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nc7EhUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nc7EhkkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Nc7Eh0kXEeqL1_AphxPj1A" name="loadSlideItem">
+      <modelElement href="Jabberpoint.uml#_qqkKgEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtVjQ0kXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nc7EiEkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nc7EiUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nc7EikkXEeqL1_AphxPj1A" name="slide">
+        <modelElement href="Jabberpoint.uml#_qqkKgUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nc7Ei0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nc7EjEkXEeqL1_AphxPj1A" name="Slide">
+          <modelElement href="Jabberpoint.uml#_qoAlwEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Nc7EjUkXEeqL1_AphxPj1A" name="item">
+        <modelElement href="Jabberpoint.uml#_qqkKgkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nc7EjkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nc7Ej0kXEeqL1_AphxPj1A" name="Element">
+          <modelElement href="Jabberpoint.uml#_J6fRQDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Nc7EkEkXEeqL1_AphxPj1A" name="saveFile">
+      <modelElement href="Jabberpoint.uml#_qqkxkEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Nc7EkUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nc7EkkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nc7Ek0kXEeqL1_AphxPj1A" name="presentation">
+        <modelElement href="Jabberpoint.uml#_qqkxkUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nc7ElEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nc7ElUkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Nc7ElkkXEeqL1_AphxPj1A" name="filename">
+        <modelElement href="Jabberpoint.uml#_qqkxkkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nc7El0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Nc7EmEkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NcRkAEkXEeqL1_AphxPj1A" comments="_NcPu0EkXEeqL1_AphxPj1A" targetConnectionVisual="_NcPu0UkXEeqL1_AphxPj1A" name="SlideItem" abstractClass="true" subclassedBy="_NcPu0kkXEeqL1_AphxPj1A _NcveEEkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qnzKYEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_NcRkAUkXEeqL1_AphxPj1A" position="274.0,942.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NcRkAkkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_NcRkA0kXEeqL1_AphxPj1A" defaultValue="0" name="level">
+      <modelElement href="Jabberpoint.uml#_qq4TkEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcRkBEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcRkBUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcRkBkkXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NcRkB0kXEeqL1_AphxPj1A" name="SlideItem">
+      <modelElement href="Jabberpoint.uml#_qnzxcEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NcRkCEkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NcRkCUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcRkCkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcRkC0kXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qn0YgEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcRkDEkXEeqL1_AphxPj1A" name="SlideItem">
+          <modelElement href="Jabberpoint.uml#_qnzKYEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NcRkDUkXEeqL1_AphxPj1A" name="lev">
+        <modelElement href="Jabberpoint.uml#_qnzxcUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkDkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkD0kXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcRkEEkXEeqL1_AphxPj1A" name="SlideItem">
+      <modelElement href="Jabberpoint.uml#_qn0YgUkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NcRkEUkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NcRkEkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcRkE0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcRkFEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qn0YhEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcRkFUkXEeqL1_AphxPj1A" name="SlideItem">
+          <modelElement href="Jabberpoint.uml#_qnzKYEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NcRkFkkXEeqL1_AphxPj1A" abstractOperation="true" name="getBoundingBox">
+      <modelElement href="Jabberpoint.uml#_qqEbQEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcRkF0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcRkGEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcRkGUkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqFCU0kUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcRkGkkXEeqL1_AphxPj1A" name="Rectangle">
+          <modelElement href="Jabberpoint.uml#_J5lSUDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NcRkG0kXEeqL1_AphxPj1A" name="g">
+        <modelElement href="Jabberpoint.uml#_qqEbQUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkHEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkHUkXEeqL1_AphxPj1A" name="Graphics">
+          <modelElement href="Jabberpoint.uml#_J5mgcTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcRkHkkXEeqL1_AphxPj1A" name="observer">
+        <modelElement href="Jabberpoint.uml#_qqFCUEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkH0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkIEkXEeqL1_AphxPj1A" name="ImageObserver">
+          <modelElement href="Jabberpoint.uml#_J5nukDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcRkIUkXEeqL1_AphxPj1A" name="scale">
+        <modelElement href="Jabberpoint.uml#_qqFCUUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkIkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkI0kXEeqL1_AphxPj1A" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcRkJEkXEeqL1_AphxPj1A" name="style">
+        <modelElement href="Jabberpoint.uml#_qqFCUkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkJUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkJkkXEeqL1_AphxPj1A" name="Style">
+          <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcRkJ0kXEeqL1_AphxPj1A" abstractOperation="true" name="draw">
+      <modelElement href="Jabberpoint.uml#_qqFpYEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcRkKEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcRkKUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NcRkKkkXEeqL1_AphxPj1A" name="x">
+        <modelElement href="Jabberpoint.uml#_qqFpYUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkK0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkLEkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcRkLUkXEeqL1_AphxPj1A" name="y">
+        <modelElement href="Jabberpoint.uml#_qqFpYkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkLkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkL0kXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcRkMEkXEeqL1_AphxPj1A" name="scale">
+        <modelElement href="Jabberpoint.uml#_qqFpY0kUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkMUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkMkkXEeqL1_AphxPj1A" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcRkM0kXEeqL1_AphxPj1A" name="g">
+        <modelElement href="Jabberpoint.uml#_qqFpZEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkNEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkNUkXEeqL1_AphxPj1A" name="Graphics">
+          <modelElement href="Jabberpoint.uml#_J5mgcTvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcRkNkkXEeqL1_AphxPj1A" name="style">
+        <modelElement href="Jabberpoint.uml#_qqFpZUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkN0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkOEkXEeqL1_AphxPj1A" name="Style">
+          <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcRkOUkXEeqL1_AphxPj1A" name="observer">
+        <modelElement href="Jabberpoint.uml#_qqFpZkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcRkOkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcRkO0kXEeqL1_AphxPj1A" name="ImageObserver">
+          <modelElement href="Jabberpoint.uml#_J5nukDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RakXgDvPEeq_l_FaqSEw-A" name="IOException">
+    <modelElement href="Jabberpoint.uml#_J5RwUDvPEeq_l_FaqSEw-A"/>
+    <visualProperties xmi:id="_RakXgTvPEeq_l_FaqSEw-A" position="1555.0,1312.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RakXgjvPEeq_l_FaqSEw-A" name="Reference">
+      <modelElement href="Jabberpoint.uml#_J5S-cDvPEeq_l_FaqSEw-A"/>
+    </stereotypes>
+    <visibility xmi:id="_RakXgzvPEeq_l_FaqSEw-A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MWjSEEkXEeqL1_AphxPj1A" comments="_MWirAEkXEeqL1_AphxPj1A" targetConnectionVisual="_MWirAUkXEeqL1_AphxPj1A" name="AboutBox">
+    <modelElement href="Jabberpoint.uml#_qnirsEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_MWjSEUkXEeqL1_AphxPj1A" position="1510.0,1377.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_MWjSEkkXEeqL1_AphxPj1A" label="+"/>
+    <operations xmi:id="_MWjSE0kXEeqL1_AphxPj1A" name="show" staticOperation="true">
+      <modelElement href="Jabberpoint.uml#_qnj50EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_MWjSFEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_MWjSFUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MWjSFkkXEeqL1_AphxPj1A" name="parent">
+        <modelElement href="Jabberpoint.uml#_qnj50UkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_MWjSF0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_MWjSGEkXEeqL1_AphxPj1A" name="Frame">
+          <modelElement href="Jabberpoint.uml#_J5LpsDvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Nbfg4EkXEeqL1_AphxPj1A" comments="_NbeSwEkXEeqL1_AphxPj1A" targetConnectionVisual="_NbeSwUkXEeqL1_AphxPj1A" name="JabberPoint">
+    <modelElement href="Jabberpoint.uml#_qnvgAEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_Nbfg4UkXEeqL1_AphxPj1A" position="1516.0,1475.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Nbfg4kkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_Nbfg40kXEeqL1_AphxPj1A" defaultValue="&quot;IO Error: &quot;" name="IOERR" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qq13UEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtOOgEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nbfg5EkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nbfg5UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nbfg5kkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nbfg50kXEeqL1_AphxPj1A" defaultValue="&quot;Jabberpoint Error &quot;" name="JABERR" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qq2eYUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtOOgUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nbfg6EkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nbfg6UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nbfg6kkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Nbfg60kXEeqL1_AphxPj1A" defaultValue="&quot;Jabberpoint 1.6 - OU version&quot;" name="JABVERSION" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qq3FcEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtOOgkkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Nbfg7EkXEeqL1_AphxPj1A" label="#"/>
+      <cardinality xmi:id="_Nbfg7UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Nbfg7kkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Nbfg70kXEeqL1_AphxPj1A" name="main" staticOperation="true">
+      <modelElement href="Jabberpoint.uml#_qnwHEEkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_Nbfg8EkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qnwHEkkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Nbfg8UkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Nbfg8kkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Nbfg80kXEeqL1_AphxPj1A" name="argv">
+        <modelElement href="Jabberpoint.uml#_qnwHEUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Nbfg9EkXEeqL1_AphxPj1A" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Nbfg9UkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ncp-gEkXEeqL1_AphxPj1A" comments="_Ncm7MEkXEeqL1_AphxPj1A" targetConnectionVisual="_Ncm7MUkXEeqL1_AphxPj1A" name="Style" associationsIn="_NcmUIEkXEeqL1_AphxPj1A" associationsOut="_NcmUIEkXEeqL1_AphxPj1A _Ncm7MkkXEeqL1_AphxPj1A _Ncm7M0kXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_Ncp-gUkXEeqL1_AphxPj1A" position="913.0,925.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ncp-gkkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_Ncp-g0kXEeqL1_AphxPj1A" name="styles" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrbtMEkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_Ncp-hEkXEeqL1_AphxPj1A" name="Array">
+        <modelElement href="Jabberpoint.uml#_qrbtMkkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ncp-hUkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrcUQEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ncp-hkkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Ncp-h0kXEeqL1_AphxPj1A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Ncp-iEkXEeqL1_AphxPj1A" name="Style">
+        <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ncp-iUkXEeqL1_AphxPj1A" defaultValue="&quot;Helvetica&quot;" name="FONTNAME" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qrcUQUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtTHBUkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_Ncp-ikkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_Ncp-i0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ncp-jEkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ncp-jUkXEeqL1_AphxPj1A" name="indent">
+      <modelElement href="Jabberpoint.uml#_qrc7UEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtTuEEkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_Ncp-jkkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrc7UUkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ncp-j0kXEeqL1_AphxPj1A" label="~"/>
+      <cardinality xmi:id="_Ncp-kEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ncp-kUkXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ncp-kkkXEeqL1_AphxPj1A" name="color">
+      <modelElement href="Jabberpoint.uml#_qrdiYEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtTuEUkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_Ncp-k0kXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrdiYUkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ncp-lEkXEeqL1_AphxPj1A" label="~"/>
+      <cardinality xmi:id="_Ncp-lUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ncp-lkkXEeqL1_AphxPj1A" name="Color">
+        <modelElement href="Jabberpoint.uml#_J5-T4DvPEeq_l_FaqSEw-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ncp-l0kXEeqL1_AphxPj1A" name="font">
+      <modelElement href="Jabberpoint.uml#_qrdiYkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtTuEkkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_Ncp-mEkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qreJcEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ncp-mUkXEeqL1_AphxPj1A" label="~"/>
+      <cardinality xmi:id="_Ncp-mkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ncp-m0kXEeqL1_AphxPj1A" name="Font">
+        <modelElement href="Jabberpoint.uml#_J5_iADvPEeq_l_FaqSEw-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ncp-nEkXEeqL1_AphxPj1A" name="fontSize">
+      <modelElement href="Jabberpoint.uml#_qreJcUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtTuE0kXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_Ncp-nUkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrewgEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ncp-nkkXEeqL1_AphxPj1A" label="~"/>
+      <cardinality xmi:id="_Ncp-n0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ncp-oEkXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ncp-oUkXEeqL1_AphxPj1A" name="leading">
+      <modelElement href="Jabberpoint.uml#_qrewgUkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtUVIEkXEeqL1_AphxPj1A" visible="false"/>
+      <stereotypes xmi:id="_Ncp-okkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qrfXkEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ncp-o0kXEeqL1_AphxPj1A" label="~"/>
+      <cardinality xmi:id="_Ncp-pEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ncp-pUkXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ncp-pkkXEeqL1_AphxPj1A" name="createStyles" staticOperation="true">
+      <modelElement href="Jabberpoint.uml#_qokmcEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Ncp-p0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Ncp-qEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Ncp-qUkXEeqL1_AphxPj1A" name="getStyle" staticOperation="true">
+      <modelElement href="Jabberpoint.uml#_qolNgEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Ncp-qkkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Ncp-q0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ncp-rEkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qqbAkEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Ncp-rUkXEeqL1_AphxPj1A" name="Style">
+          <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ncp-rkkXEeqL1_AphxPj1A" name="level">
+        <modelElement href="Jabberpoint.uml#_qolNgUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncp-r0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncp-sEkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ncp-sUkXEeqL1_AphxPj1A" name="Style">
+      <modelElement href="Jabberpoint.uml#_qol0kEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_Ncp-skkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_Ncp-s0kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Ncp-tEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ncp-tUkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qombpEkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Ncp-tkkXEeqL1_AphxPj1A" name="Style">
+          <modelElement href="Jabberpoint.uml#_qoixQEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ncp-t0kXEeqL1_AphxPj1A" name="indent">
+        <modelElement href="Jabberpoint.uml#_qol0kUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncp-uEkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncp-uUkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ncp-ukkXEeqL1_AphxPj1A" name="color">
+        <modelElement href="Jabberpoint.uml#_qol0kkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncp-u0kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncp-vEkXEeqL1_AphxPj1A" name="Color">
+          <modelElement href="Jabberpoint.uml#_J5-T4DvPEeq_l_FaqSEw-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ncp-vUkXEeqL1_AphxPj1A" name="points">
+        <modelElement href="Jabberpoint.uml#_qomboEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncp-vkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncp-v0kXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ncp-wEkXEeqL1_AphxPj1A" name="leading">
+        <modelElement href="Jabberpoint.uml#_qomboUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncp-wUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncp-wkkXEeqL1_AphxPj1A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ncp-w0kXEeqL1_AphxPj1A" name="toString">
+      <modelElement href="Jabberpoint.uml#_qonCsEkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Ncp-xEkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Ncp-xUkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ncp-xkkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qonCsUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Ncp-x0kXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ncp-yEkXEeqL1_AphxPj1A" name="getFont">
+      <modelElement href="Jabberpoint.uml#_qonCskkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_Ncp-yUkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_Ncp-ykkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ncp-y0kXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qonpwUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_Ncp-zEkXEeqL1_AphxPj1A" name="Font">
+          <modelElement href="Jabberpoint.uml#_J5_iADvPEeq_l_FaqSEw-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ncp-zUkXEeqL1_AphxPj1A" name="scale">
+        <modelElement href="Jabberpoint.uml#_qonpwEkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_Ncp-zkkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ncp-z0kXEeqL1_AphxPj1A" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NcjQ0EkXEeqL1_AphxPj1A" comments="_NciCsEkXEeqL1_AphxPj1A" targetConnectionVisual="_NciCsUkXEeqL1_AphxPj1A" name="SlideViewerFrame" generalizations="_NciCskkXEeqL1_AphxPj1A">
+    <modelElement href="Jabberpoint.uml#_qnpZYEkUEeqL1_AphxPj1A"/>
+    <visualProperties xmi:id="_NcjQ0UkXEeqL1_AphxPj1A" position="610.0,1393.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NcjQ0kkXEeqL1_AphxPj1A" label="+"/>
+    <attributes xmi:id="_NcjQ00kXEeqL1_AphxPj1A" defaultValue="3227L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qqzbEEkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtTHA0kXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcjQ1EkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcjQ1UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcjQ1kkXEeqL1_AphxPj1A" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcjQ10kXEeqL1_AphxPj1A" defaultValue="&quot;Jabberpoint 1.6 - OU&quot;" name="JABTITLE" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qqzbEkkUEeqL1_AphxPj1A"/>
+      <visualProperties xmi:id="_OtTHBEkXEeqL1_AphxPj1A" visible="false"/>
+      <visibility xmi:id="_NcjQ2EkXEeqL1_AphxPj1A" label="-"/>
+      <cardinality xmi:id="_NcjQ2UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcjQ2kkXEeqL1_AphxPj1A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcjQ20kXEeqL1_AphxPj1A" defaultValue="1200" name="WIDTH" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qq0CIUkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_NcjQ3EkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qq0pMEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcjQ3UkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcjQ3kkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcjQ30kXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcjQ4EkXEeqL1_AphxPj1A" defaultValue="800" name="HEIGHT" staticAttribute="true">
+      <modelElement href="Jabberpoint.uml#_qq0pMUkUEeqL1_AphxPj1A"/>
+      <stereotypes xmi:id="_NcjQ4UkXEeqL1_AphxPj1A" name="LegacyStyledElement">
+        <modelElement href="Jabberpoint.uml#_qq1QQEkUEeqL1_AphxPj1A"/>
+      </stereotypes>
+      <visibility xmi:id="_NcjQ4kkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcjQ40kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <type xmi:id="_NcjQ5EkXEeqL1_AphxPj1A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NcjQ5UkXEeqL1_AphxPj1A" name="SlideViewerFrame">
+      <modelElement href="Jabberpoint.uml#_qp_iwEkUEeqL1_AphxPj1A"/>
+      <keywords xmi:id="_NcjQ5kkXEeqL1_AphxPj1A" keyword="create"/>
+      <visibility xmi:id="_NcjQ50kXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcjQ6EkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NcjQ6UkXEeqL1_AphxPj1A">
+        <modelElement href="Jabberpoint.uml#_qp_ixUkUEeqL1_AphxPj1A"/>
+        <type xmi:id="_NcjQ6kkXEeqL1_AphxPj1A" name="SlideViewerFrame">
+          <modelElement href="Jabberpoint.uml#_qnpZYEkUEeqL1_AphxPj1A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NcjQ60kXEeqL1_AphxPj1A" name="title">
+        <modelElement href="Jabberpoint.uml#_qp_iwUkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcjQ7EkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcjQ7UkXEeqL1_AphxPj1A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcjQ7kkXEeqL1_AphxPj1A" name="presentation">
+        <modelElement href="Jabberpoint.uml#_qp_iwkkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcjQ70kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcjQ8EkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NcjQ8UkXEeqL1_AphxPj1A" name="setupWindow">
+      <modelElement href="Jabberpoint.uml#_qqAJ0EkUEeqL1_AphxPj1A"/>
+      <visibility xmi:id="_NcjQ8kkXEeqL1_AphxPj1A" label="+"/>
+      <cardinality xmi:id="_NcjQ80kXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NcjQ9EkXEeqL1_AphxPj1A" name="slideViewerComponent">
+        <modelElement href="Jabberpoint.uml#_qqAJ0UkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcjQ9UkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcjQ9kkXEeqL1_AphxPj1A" name="SlideViewerComponent">
+          <modelElement href="Jabberpoint.uml#_qoS5oEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NcjQ90kXEeqL1_AphxPj1A" name="presentation">
+        <modelElement href="Jabberpoint.uml#_qqAw4EkUEeqL1_AphxPj1A"/>
+        <cardinality xmi:id="_NcjQ-EkXEeqL1_AphxPj1A" label="1" max="1" min="1"/>
+        <type xmi:id="_NcjQ-UkXEeqL1_AphxPj1A" name="Presentation">
+          <modelElement href="Jabberpoint.uml#_qn2NsEkUEeqL1_AphxPj1A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
